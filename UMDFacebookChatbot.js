@@ -42,7 +42,7 @@ login({ email: "enter email here", password: "enter password here" }, function c
                         var jsonResponse = JSON.parse(body);
                  //can change description to "credits" to return the number of credits of the course 
                         console.log(jsonResponse.description);
-                        api.sendMessage(jsonResponse.description, message.threadID);// Show the HTML for the Google homepage.
+                        api.sendMessage(jsonResponse.description, message.threadID);
                     }
                     
 
